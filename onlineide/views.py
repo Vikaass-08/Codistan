@@ -67,6 +67,8 @@ class SubmissionsViewSet(ModelViewSet):
         serializer.is_valid(raise_exception=True)
         submission = serializer.save()
 
+        # Multiprocessing to handle multiple user submitting code at the same time
+        # They should not wait for others to run first
         p = mp.Process(target=execute_file,
                     args=(file_name, request.data.get("language"), submission.pk))
         p.start()
