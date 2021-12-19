@@ -24,6 +24,11 @@
       "password": "Root@wasim"
     } <br/>
   > You will get a token. After Succesfully getting loged in.
+
+
+![secongReq](https://user-images.githubusercontent.com/59832889/146671959-53eedfe9-211d-4916-87ac-1324f5d26520.png)
+
+
   
 ### Submitting your Code: http://localhost:8000/ide/submit/
  
@@ -40,10 +45,7 @@
 
   > Send a get request With headers <br/>
     Header: {"Authorization" : "Token c883f8d98be6523118837d4318ec7629afc2b0cabaf9ac904d69b6bf701b6149" }
+   
   
-  
-  
-  
-![secongReq](https://user-images.githubusercontent.com/59832889/146671959-53eedfe9-211d-4916-87ac-1324f5d26520.png)
 ![firstReq](https://user-images.githubusercontent.com/59832889/146671967-bf5951ea-764d-4657-a771-6aeb31d6279d.png)
 
